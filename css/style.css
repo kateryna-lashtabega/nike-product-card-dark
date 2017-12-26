@@ -1,0 +1,230 @@
+body{
+	background: url(../img/main-bg.jpg);
+	background-size: cover;
+	color: #4f5560;
+	font-family: MuseoSansRounded, sans-serif;
+	letter-spacing: .02em;
+}
+
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+.product-card {
+	background-color: #111a28;
+	position: fixed;
+	min-height: 391px;
+	width: 687px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 9px;
+	-webkit-box-shadow: 0px 0px 151px -17px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 151px -17px rgba(0,0,0,1);
+	box-shadow: 0px 0px 151px -17px rgba(0,0,0,1);
+}
+
+.product-card__logo {
+	margin: 24px 21px 0;
+}
+
+
+/*  Slider  */
+.ba-row + .ba-row {
+	margin-top: 0;
+}
+
+.product-card__slider__pic img {
+	display: block;
+  	margin: 15% auto;
+
+
+}
+
+/*.product-card__slider {
+	margin-top: 72px;
+}
+*/
+.product-card__slider ul {
+	list-style: none;
+	text-align: center;
+
+}
+
+.product-card__slider__nav {
+	/*padding-top: 10px;*/
+
+}
+
+.ba-slider {
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	box-sizing: content-box;
+	
+}
+li:not(:first-child) .ba-slider {
+	margin-left: 5px;
+}
+
+.ba-slider--gray {
+	background-color: #1f273f;
+}
+
+.ba-slider--white {
+	background-color: #fff;
+}
+.ba-slider--red {
+	background-color: #ed3333;
+}
+
+.ba-slider--blue {
+	background-color: #29e3ea;
+}
+
+.ba-slyder--active {
+	width: 12px;
+	height: 12px;
+	border: 1px solid #7e838b;
+	margin-bottom: -3px;
+} 
+.product-card__slider__nav li {
+	
+	display: inline-block;
+
+}
+
+
+/*  product info  */
+
+.product-card__info {
+	margin-left: -25px;
+	color: #e1e1e1;
+}
+
+.product-card__info h1 {
+	font-size: 24px;
+	
+	line-height: 26px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.product-card__info p {
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: .02em;
+	margin-top: 10px;
+	margin-bottom: 12px;
+}
+
+.product-card__rate {
+	padding: 0 0 8px;
+}
+.product-card__size, .product-card__qty {
+	display: inline-block;
+	
+}
+
+.ba-select {
+	margin: 10px 0 10px -2px;
+	background: url(../img/select.png) no-repeat 83% center;
+	overflow: hidden;
+	width: 68px;
+	height: 33px;
+	border: 1px solid #4f5560;
+	position: relative;
+}
+.ba-select__item {
+	z-index: 100;
+	position: absolute;
+	color: #e1e1e1;
+	background: transparent;
+	width: 82px;
+	border: none;
+	padding: 7px 9px;
+	font-family: MuseoSansRounded, serif;
+	font-size: 14px;
+	letter-spacing: .02em;
+	line-height: 18px;
+}
+
+.ba-select__item option {
+	background-color: #111a28;
+}
+
+.ba-select__item:focus {
+	outline: none;
+}
+
+/* Layout */
+
+
+.ba-button {
+	
+	margin: 15px 0 10px;
+	
+}
+.ba-button a {
+	padding: 9px 53px;
+	line-height: 40px;
+	color: #e1e1e1;
+	text-decoration: none;
+	background-color: #202835;
+	border: 1px solid #4f5560;
+}
+.ba-button a:visited {
+	color: #e1e1e1;
+}
+.ba-button:hover {
+	opacity: .5;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
